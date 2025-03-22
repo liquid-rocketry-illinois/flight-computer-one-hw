@@ -613,6 +613,10 @@
       "Root"
     ],
     [
+      "420394b1-4c9b-4d8d-83f2-b66955e186e4",
+      "Power & USB"
+    ],
+    [
       "00ad515d-cb70-4b3d-b11f-a2da1eb48be9",
       "Compute"
     ],
@@ -626,7 +630,7 @@
     ],
     [
       "5739fe2c-a9a2-4ba2-9a1a-eb469a62e4fb",
-      "Servos and Pyros"
+      "Servos & Pyros"
     ]
   ],
   "text_variables": {}

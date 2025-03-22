@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "2b49a1e7-3a95-411d-8c49-438ba0d49dde")
-	(paper "A3")
+	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x08"
 			(pin_names
@@ -599,7 +599,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 322.58 195.58 0)
+		(at 26.67 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -607,7 +607,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef4c292")
 		(property "Reference" "H1"
-			(at 325.12 194.4116 0)
+			(at 29.21 254.1016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,7 +616,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 325.12 196.723 0)
+			(at 29.21 256.413 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,7 +625,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 322.58 195.58 0)
+			(at 26.67 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -634,7 +634,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 322.58 195.58 0)
+			(at 26.67 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -643,7 +643,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 322.58 195.58 0)
+			(at 26.67 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,7 +662,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 322.58 200.66 0)
+		(at 26.67 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -670,7 +670,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef4cf1f")
 		(property "Reference" "H2"
-			(at 325.12 199.4916 0)
+			(at 29.21 259.1816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -679,7 +679,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 325.12 201.803 0)
+			(at 29.21 261.493 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +688,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 322.58 200.66 0)
+			(at 26.67 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -697,7 +697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 322.58 200.66 0)
+			(at 26.67 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -706,7 +706,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 322.58 200.66 0)
+			(at 26.67 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -725,7 +725,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 322.58 205.74 0)
+		(at 26.67 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -733,7 +733,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef4d323")
 		(property "Reference" "H3"
-			(at 325.12 204.5716 0)
+			(at 29.21 264.2616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +742,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 325.12 206.883 0)
+			(at 29.21 266.573 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,7 +751,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 322.58 205.74 0)
+			(at 26.67 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,7 +760,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 322.58 205.74 0)
+			(at 26.67 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +769,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 322.58 205.74 0)
+			(at 26.67 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -788,7 +788,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 322.58 210.82 0)
+		(at 26.67 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -796,7 +796,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef4d57b")
 		(property "Reference" "H4"
-			(at 325.12 209.55 0)
+			(at 29.21 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,7 +805,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 325.12 211.963 0)
+			(at 29.21 271.653 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -814,7 +814,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 322.58 210.82 0)
+			(at 26.67 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -823,7 +823,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 322.58 210.82 0)
+			(at 26.67 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -832,7 +832,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 322.58 210.82 0)
+			(at 26.67 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +851,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x08")
-		(at 185.42 170.18 0)
+		(at 86.36 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -859,8 +859,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "627965af-c281-470d-a55d-0783b71a7fe3")
-		(property "Reference" "J3"
-			(at 187.96 170.1799 0)
+		(property "Reference" "J1"
+			(at 88.9 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,7 +869,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x08"
-			(at 187.96 172.7199 0)
+			(at 88.9 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +878,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal"
-			(at 185.42 170.18 0)
+			(at 86.36 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,7 +887,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 170.18 0)
+			(at 86.36 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -896,7 +896,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 185.42 170.18 0)
+			(at 86.36 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,7 +931,7 @@
 		(instances
 			(project ""
 				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -939,7 +939,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x08")
-		(at 237.49 170.18 0)
+		(at 140.97 166.37 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -948,8 +948,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba0f1965-68f7-4af7-a733-b14578e14f02")
-		(property "Reference" "J4"
-			(at 234.95 170.1799 0)
+		(property "Reference" "J2"
+			(at 138.43 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -958,7 +958,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x08"
-			(at 234.95 172.7199 0)
+			(at 138.43 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -967,7 +967,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal"
-			(at 237.49 170.18 0)
+			(at 140.97 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +976,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 170.18 0)
+			(at 140.97 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -985,7 +985,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 237.49 170.18 0)
+			(at 140.97 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1020,7 @@
 		(instances
 			(project "flight-computer-one"
 				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1028,7 +1028,7 @@
 	)
 	(sheet
 		(at 34.29 30.48)
-		(size 60.96 67.31)
+		(size 41.91 66.04)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1052,7 +1052,7 @@
 			)
 		)
 		(property "Sheetfile" "compute.kicad_sch"
-			(at 34.29 98.3746 0)
+			(at 34.29 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1063,14 +1063,14 @@
 		(instances
 			(project "flight-computer-one"
 				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 180.34 31.75)
-		(size 60.96 66.04)
+		(at 139.7 99.06)
+		(size 38.1 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1085,7 +1085,7 @@
 		)
 		(uuid "34ffb04f-a567-4939-915a-72e6afee4bc4")
 		(property "Sheetname" "Connectivity"
-			(at 180.34 31.0384 0)
+			(at 139.7 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,49 +1094,7 @@
 			)
 		)
 		(property "Sheetfile" "connectivity.kicad_sch"
-			(at 180.34 98.3746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "flight-computer-one"
-				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 255.27 31.75)
-		(size 55.88 66.04)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5739fe2c-a9a2-4ba2-9a1a-eb469a62e4fb")
-		(property "Sheetname" "Servos and Pyros"
-			(at 255.27 31.0384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "servo_pyro.kicad_sch"
-			(at 255.27 98.3746 0)
+			(at 139.7 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1154,7 +1112,91 @@
 	)
 	(sheet
 		(at 107.95 30.48)
-		(size 58.42 67.31)
+		(size 49.53 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "420394b1-4c9b-4d8d-83f2-b66955e186e4")
+		(property "Sheetname" "Power & USB"
+			(at 107.95 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_usb.kicad_sch"
+			(at 107.95 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flight-computer-one"
+				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 53.34)
+		(size 38.1 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5739fe2c-a9a2-4ba2-9a1a-eb469a62e4fb")
+		(property "Sheetname" "Servos & Pyros"
+			(at 210.82 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo_pyro.kicad_sch"
+			(at 210.82 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flight-computer-one"
+				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 97.79)
+		(size 44.45 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1169,7 +1211,7 @@
 		)
 		(uuid "f69b98ff-ab10-4478-a5d1-a0199723a258")
 		(property "Sheetname" "Sensors"
-			(at 107.95 29.7684 0)
+			(at 83.82 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1220,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 107.95 98.3746 0)
+			(at 83.82 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +1231,7 @@
 		(instances
 			(project "flight-computer-one"
 				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde"
-					(page "3")
+					(page "4")
 				)
 			)
 		)

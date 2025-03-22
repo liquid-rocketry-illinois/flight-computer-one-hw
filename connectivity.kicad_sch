@@ -1414,6 +1414,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TCAN1472-Q1 MISSING"
+		(exclude_from_sim no)
+		(at 201.168 46.228 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "bc3a4995-1a94-4389-84fb-84003749323a")
+	)
 	(wire
 		(pts
 			(xy 222.25 87.63) (xy 222.25 90.17)
@@ -1464,7 +1474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01801bd0-243e-4134-a903-d91c65f5bdae")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 163.83 114.5931 0)
 			(effects
 				(font
@@ -1518,7 +1528,7 @@
 		(instances
 			(project "flight-computer-one"
 				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/34ffb04f-a567-4939-915a-72e6afee4bc4"
-					(reference "J2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
