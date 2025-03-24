@@ -1,5 +1,5 @@
 # Flight Computer One "Electric Angel"
-KiCad PCB repository for Electric Angel, LRI's first fully featured flight computer. An evolution of the Flight Computer Lite (nicknamed Digital Tripper), it integrates several great new features, like a packet radio, CAN FD, hardware floating-point acceleration, pyro channels, servo controls and more! Electric Angel can do many things: it can fly model rockets with active controls, act as a radio link for liquid engine operation, or maybe someday, both at the same time. It can also log data at a rate exceeding that of Digital Tripper.
+KiCad PCB repository for Electric Angel, LRI's first fully featured flight computer. An evolution of the Flight Computer Lite (nicknamed Digital Tripper), it integrates several great new features, like a packet radio, CAN FD, hardware floating-point acceleration, pyro channels, servo controls and more! Electric Angel can do many things: it can fly model rockets with active controls, act as a wireless comms link for liquid powertrain operation, or maybe someday, both at the same time. It can also log data at a rate exceeding that of Digital Tripper.
 
 Electric Angel is a 50mm x 100mm rectangle and is designed to fit longitudinally in an avionics bay. Its physical design is inspired by the TeleMega series of altimeters.
 

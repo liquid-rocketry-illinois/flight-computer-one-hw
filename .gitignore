@@ -1,0 +1,9 @@
+fp-info-cache
+fp-lib-table
+sym-lib-table
+*-backups/
+*.kicad_prl
+_autosave*
+*.drl
+*.lck
+

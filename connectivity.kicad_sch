@@ -532,6 +532,235 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Interface_CAN_LIN:TCAN334G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TCAN334G"
+				(at 2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "High-Speed CAN Transceiver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TCAN334G_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TCAN334G_1_1"
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "SHDN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "STB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_GPS:MAX-M10S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1312,6 +1541,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1414,16 +1768,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TCAN1472-Q1 MISSING"
-		(exclude_from_sim no)
-		(at 201.168 46.228 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "bc3a4995-1a94-4389-84fb-84003749323a")
-	)
 	(wire
 		(pts
 			(xy 222.25 87.63) (xy 222.25 90.17)
@@ -1446,6 +1790,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 57.15) (xy 115.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b231a4-49eb-49aa-b615-4f1268ef6376")
+	)
+	(wire
+		(pts
 			(xy 139.7 115.57) (xy 154.94 115.57)
 		)
 		(stroke
@@ -1463,6 +1817,16 @@
 			(type default)
 		)
 		(uuid "8900487a-c04f-4755-bba0-4303228aca84")
+	)
+	(wire
+		(pts
+			(xy 115.57 81.28) (xy 115.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd8ffbc-4d16-4cf2-80b7-d5ebe389aacb")
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
@@ -1544,7 +1908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ec38548-844f-4b6b-8b3a-cfe30bf32e10")
-		(property "Reference" "U11"
+		(property "Reference" "U9"
 			(at 131.6833 107.95 0)
 			(effects
 				(font
@@ -1553,7 +1917,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Ai-Thinker-Ra-01"
+		(property "Value" "Ai-Thinker-Ra-01H"
 			(at 131.6833 110.49 0)
 			(effects
 				(font
@@ -1580,7 +1944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ai-Thinker Ra-01 410-525 MHz LoRa Module, SPI interface, external antenna"
+		(property "Description" "Ai-Thinker Ra-01 902-928 MHz LoRa Module, SPI interface, external antenna"
 			(at 129.54 125.73 0)
 			(effects
 				(font
@@ -1640,7 +2004,139 @@
 		(instances
 			(project "flight-computer-one"
 				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/34ffb04f-a567-4939-915a-72e6afee4bc4"
-					(reference "U11")
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2285b831-2bdf-478d-9691-210a01394793")
+		(property "Reference" "#PWR023"
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcdb59a5-ce36-4f8c-9b96-14c07701614d")
+		)
+		(instances
+			(project ""
+				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/34ffb04f-a567-4939-915a-72e6afee4bc4"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 115.57 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "336de9e5-35e6-4cdf-8a6a-9462afac756e")
+		(property "Reference" "#PWR024"
+			(at 115.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64f1815e-a4db-4a68-ba2c-a69abe353575")
+		)
+		(instances
+			(project ""
+				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/34ffb04f-a567-4939-915a-72e6afee4bc4"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1714,7 +2210,7 @@
 	)
 	(symbol
 		(lib_id "Interface_CAN_LIN:MCP2518FD-xQBB")
-		(at 128.27 67.31 0)
+		(at 66.04 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1723,7 +2219,7 @@
 		(fields_autoplaced yes)
 		(uuid "a04cfd91-9cd5-423e-9e8c-4e3137e88e62")
 		(property "Reference" "U4"
-			(at 130.4133 52.07 0)
+			(at 68.1833 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +2228,7 @@
 			)
 		)
 		(property "Value" "MCP2518FD-xQBB"
-			(at 130.4133 54.61 0)
+			(at 68.1833 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +2237,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:DFN-14-1EP_3x4.5mm_P0.65mm_EP1.65x4.25mm"
-			(at 129.54 81.28 0)
+			(at 67.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +2247,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/External-CAN-FD-Controller-with-SPI-Interface-DS20006027B.pdf"
-			(at 129.54 83.82 0)
+			(at 67.31 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +2257,7 @@
 			)
 		)
 		(property "Description" "CAN FD Controller with SPI Interface, up to 8 Mbps, Vdd 2.7..5.5V,  functional safety ready, VDFN-14"
-			(at 128.27 67.31 0)
+			(at 66.04 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +2329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0edecdc-99d1-4fe7-b521-0ed4e674abaa")
-		(property "Reference" "U6"
+		(property "Reference" "U3"
 			(at 186.2933 100.33 0)
 			(effects
 				(font
@@ -1935,7 +2431,7 @@
 		(instances
 			(project "flight-computer-one"
 				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/34ffb04f-a567-4939-915a-72e6afee4bc4"
-					(reference "U6")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2072,6 +2568,95 @@
 			(project "flight-computer-one"
 				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/34ffb04f-a567-4939-915a-72e6afee4bc4"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_CAN_LIN:TCAN334G")
+		(at 115.57 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef2da2c4-0c69-4f3c-9ba1-d5c2c4906d5a")
+		(property "Reference" "U11"
+			(at 117.7133 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCAN3404-Q1"
+			(at 117.7133 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm"
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
+			(at 115.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8"
+			(at 115.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "daf77401-a14b-4557-b48d-a4e303c81613")
+		)
+		(pin "2"
+			(uuid "afe86040-e273-4fcc-bf0e-51139054432e")
+		)
+		(pin "7"
+			(uuid "07724645-d863-4093-a77d-6582c1615b81")
+		)
+		(pin "4"
+			(uuid "31fb22fb-8b6f-4d83-84fc-3571c2613e23")
+		)
+		(pin "1"
+			(uuid "faa70500-21bf-450f-91ff-15241e8b2cfa")
+		)
+		(pin "5"
+			(uuid "375a6a8d-ec06-48ff-b51d-beec30315055")
+		)
+		(pin "8"
+			(uuid "e99aecca-8dfc-4ff5-b328-55045825af71")
+		)
+		(pin "3"
+			(uuid "fce1218e-524b-4c0c-bb2f-f4f85c614d53")
+		)
+		(instances
+			(project ""
+				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/34ffb04f-a567-4939-915a-72e6afee4bc4"
+					(reference "U11")
 					(unit 1)
 				)
 			)
