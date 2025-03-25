@@ -536,8 +536,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -10.16 8.89 0)
+			(property "Reference" "U11"
+				(at 2.1433 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -545,8 +545,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TCAN334G"
-				(at 2.54 8.89 0)
+			(property "Value" "TCAN3404-Q1"
+				(at 2.1433 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -554,7 +554,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SON:VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -679,6 +679,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1768,6 +1786,22 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 115.57 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2591e41-1d07-4f08-b7a3-e04651d57a6d")
+	)
+	(wire
+		(pts
+			(xy 113.03 82.55) (xy 115.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e2269a-a6fb-46ce-ab2b-df618782ee56")
+	)
 	(wire
 		(pts
 			(xy 222.25 87.63) (xy 222.25 90.17)
@@ -1790,7 +1824,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 57.15) (xy 115.57 60.96)
+			(xy 115.57 58.42) (xy 115.57 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1827,6 +1861,26 @@
 			(type default)
 		)
 		(uuid "cdd8ffbc-4d16-4cf2-80b7-d5ebe389aacb")
+	)
+	(wire
+		(pts
+			(xy 115.57 82.55) (xy 115.57 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd7b6c1-9f95-404e-b47d-e3923c5daa5e")
+	)
+	(wire
+		(pts
+			(xy 113.03 81.28) (xy 113.03 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df79a195-40df-4267-ba94-49bb628d75d1")
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
@@ -2012,7 +2066,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 82.55 0)
+		(at 115.57 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2021,7 +2075,7 @@
 		(fields_autoplaced yes)
 		(uuid "2285b831-2bdf-478d-9691-210a01394793")
 		(property "Reference" "#PWR023"
-			(at 115.57 88.9 0)
+			(at 115.57 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2084,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 87.63 0)
+			(at 115.57 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,7 +2092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 82.55 0)
+			(at 115.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +2101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 82.55 0)
+			(at 115.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +2110,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 82.55 0)
+			(at 115.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,7 +2132,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 115.57 57.15 0)
+		(at 115.57 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2087,7 +2141,7 @@
 		(fields_autoplaced yes)
 		(uuid "336de9e5-35e6-4cdf-8a6a-9462afac756e")
 		(property "Reference" "#PWR024"
-			(at 115.57 60.96 0)
+			(at 115.57 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2150,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 115.57 52.07 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +2158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 57.15 0)
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,7 +2167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 57.15 0)
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +2176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 115.57 57.15 0)
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,6 +2706,9 @@
 		)
 		(pin "3"
 			(uuid "fce1218e-524b-4c0c-bb2f-f4f85c614d53")
+		)
+		(pin "9"
+			(uuid "d2c8cdad-c699-4900-bde1-069c2c6c4717")
 		)
 		(instances
 			(project ""

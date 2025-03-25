@@ -293,7 +293,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LRI_partlib:PQFN50P450X300X100-16N"
+			(property "Footprint" "LRI_partlib:QFN_BMI085_BOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1667,9 +1667,9 @@
 		)
 		(uuid "24d583b5-88f9-4678-8570-9f9bff15cdcd")
 	)
-	(text "IMU\nAccel. I2C Addr: 0x18\nGyro.  I2C Addr: 0x68"
+	(text "Backup IMU\nAccel. I2C Addr: 0x18\nGyro.  I2C Addr: 0x68"
 		(exclude_from_sim no)
-		(at 64.77 28.448 0)
+		(at 73.914 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1677,9 +1677,9 @@
 		)
 		(uuid "27b54131-2230-4ed5-ae5a-d3ddfd54c976")
 	)
-	(text "I2C Addr: 0x90"
+	(text "Temperature & humidity\nI2C Addr: 0x90"
 		(exclude_from_sim no)
-		(at 162.814 98.298 0)
+		(at 160.782 97.536 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1689,7 +1689,7 @@
 	)
 	(text "Barometer\nI2C Addr: 0x77"
 		(exclude_from_sim no)
-		(at 71.374 95.758 0)
+		(at 71.374 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1706,16 +1706,6 @@
 			)
 		)
 		(uuid "985946e7-edff-40ff-8f01-9572f902c554")
-	)
-	(text "Temperature"
-		(exclude_from_sim no)
-		(at 162.56 95.504 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a967c14c-6e36-48e1-9982-d97e5ca27e49")
 	)
 	(junction
 		(at 161.29 109.22)
@@ -3657,178 +3647,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LRI_partlib:BMI088")
-		(at 64.77 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a607d130-a263-4847-a2a6-9b56e9b9cc60")
-		(property "Reference" "U5"
-			(at 64.77 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BMI088"
-			(at 64.77 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LRI_partlib:PQFN50P450X300X100-16N"
-			(at 64.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Accelerometer, Gyroscope, 6 Axis Sensor I²C, SPI Output"
-			(at 64.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Bosch Sensortec"
-			(at 64.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/BMI088/?ref=eda"
-			(at 64.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "VFLGA-16 Bosch Sensortec"
-			(at 64.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 64.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BMI088"
-			(at 64.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "In Stock"
-			(at 64.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "6008ff61-8d52-4c5a-8ff5-3db2b0f0c598")
-		)
-		(pin "15"
-			(uuid "c9cfe34b-d11f-410f-a37c-f08d5c91c4a2")
-		)
-		(pin "16"
-			(uuid "dca568bd-5303-4789-a675-5385752e7549")
-		)
-		(pin "3"
-			(uuid "d18df9ed-f971-4359-8365-afe1e8bf1fe8")
-		)
-		(pin "13"
-			(uuid "22740dc3-830c-40bc-8965-5bbe04823d2a")
-		)
-		(pin "10"
-			(uuid "2d838dd4-d460-4772-809f-43add2135715")
-		)
-		(pin "2"
-			(uuid "bbd0ef9a-df88-48b4-9b1a-674d17197ec2")
-		)
-		(pin "1"
-			(uuid "f1008de1-aaa7-46df-88e8-60f30f050012")
-		)
-		(pin "4"
-			(uuid "1fba1dad-e0b7-4014-9903-eae901080ebd")
-		)
-		(pin "11"
-			(uuid "424c51c0-6da2-45d0-9abd-6a50a2303d64")
-		)
-		(pin "8"
-			(uuid "cd2a42f6-eaf9-4792-babc-62d8c9096d92")
-		)
-		(pin "14"
-			(uuid "db310dc8-b99c-4c96-af7f-e48d26ae9272")
-		)
-		(pin "9"
-			(uuid "11eb9384-5480-41c9-88f3-0bb8afec1ea1")
-		)
-		(pin "7"
-			(uuid "a1bfee2b-c719-471f-a508-f42dca0a90cb")
-		)
-		(pin "6"
-			(uuid "bebdb2e3-27dc-49b8-a719-0c434c1300cd")
-		)
-		(pin "12"
-			(uuid "aa1358c5-8fa0-498c-8669-01a1b22c10ec")
-		)
-		(instances
-			(project "flight-computer-one"
-				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/f69b98ff-ab10-4478-a5d1-a0199723a258"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 151.13 44.45 180)
 		(unit 1)
@@ -4522,6 +4340,178 @@
 			(project "flight-computer-one"
 				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/f69b98ff-ab10-4478-a5d1-a0199723a258"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LRI_partlib:BMI088")
+		(at 64.77 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcb3f4b9-948a-4d1e-95c9-813999aa422d")
+		(property "Reference" "U5"
+			(at 64.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMI088"
+			(at 64.77 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LRI_partlib:QFN_BMI085_BOS"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Accelerometer, Gyroscope, 6 Axis Sensor I²C, SPI Output"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bosch Sensortec"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/BMI088/?ref=eda"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "VFLGA-16 Bosch Sensortec"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BMI088"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "07e12fac-6a49-4dd7-8d00-f3d42ab720dc")
+		)
+		(pin "3"
+			(uuid "0c86ab00-1c04-4e98-aa10-0a06402ef144")
+		)
+		(pin "2"
+			(uuid "f62a0390-d027-40bf-8f22-175b873e2faf")
+		)
+		(pin "9"
+			(uuid "8769ad4a-543c-4bc0-bbc8-10212179429e")
+		)
+		(pin "13"
+			(uuid "671e19f7-2736-4758-9fa6-9e0936db75ce")
+		)
+		(pin "6"
+			(uuid "be7270f8-58dd-46a8-b40a-804aa608eb04")
+		)
+		(pin "12"
+			(uuid "c163fbf4-131d-4356-999f-9fe0f8e82c13")
+		)
+		(pin "1"
+			(uuid "5f1ad67c-9bd0-4b24-b1d9-5c6e570f06ab")
+		)
+		(pin "10"
+			(uuid "c1a11be5-5f6b-463b-9db7-f855e09985ef")
+		)
+		(pin "16"
+			(uuid "4c5f1e3e-38a5-46fe-96cd-b508e1a1e4fd")
+		)
+		(pin "15"
+			(uuid "4356bc71-3f5d-4e22-87eb-f28d760f685b")
+		)
+		(pin "11"
+			(uuid "3c94597e-2240-4811-ad65-75bf123478bd")
+		)
+		(pin "4"
+			(uuid "ed4ea685-98e9-4db3-91d8-24b308956f66")
+		)
+		(pin "14"
+			(uuid "90543906-b7b7-490c-be67-b0b4b93be517")
+		)
+		(pin "7"
+			(uuid "01cc1fdd-2c27-47a2-8204-6d892bf4c8ad")
+		)
+		(pin "5"
+			(uuid "1fafa54f-0a95-4a20-a9d0-9af5f918c36e")
+		)
+		(instances
+			(project ""
+				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/f69b98ff-ab10-4478-a5d1-a0199723a258"
+					(reference "U5")
 					(unit 1)
 				)
 			)

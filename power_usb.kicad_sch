@@ -841,209 +841,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Dual_CommonCathode_AAK_Parallel"
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Dual_CommonCathode_AAK_Parallel"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual diode, common cathode on pin 1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Dual_CommonCathode_AAK_Parallel_0_0"
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Dual_CommonCathode_AAK_Parallel_0_1"
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy 0 2.54) (xy -2.54 1.27) (xy -2.54 3.81) (xy -2.54 3.81) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 -2.54) (xy -2.54 -3.81) (xy -2.54 -1.27) (xy -2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 1.27 -2.54) (xy 1.27 2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2434,7 +2231,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "18V to 3.3V buck"
+	(text "13V to 3.3V buck"
 		(exclude_from_sim no)
 		(at 206.502 116.84 0)
 		(effects
@@ -2443,6 +2240,16 @@
 			)
 		)
 		(uuid "82ab7e45-b16b-4331-be98-a5e43897433d")
+	)
+	(text "TPS2121, INA232, BUCK MISSING"
+		(exclude_from_sim no)
+		(at 106.172 142.494 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "a2dde704-fe80-4692-938c-0001f10bf937")
 	)
 	(text "INA232 power monitor on VSYS"
 		(exclude_from_sim no)
@@ -2454,7 +2261,7 @@
 		)
 		(uuid "ab3c3c6c-4c02-4577-ac3f-9c88a8148c21")
 	)
-	(text "Power OR (and technically RPP too)"
+	(text "Power muxing"
 		(exclude_from_sim no)
 		(at 204.47 39.37 0)
 		(effects
@@ -3487,7 +3294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+VSYS"
+		(property "Value" "VSYS"
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -3618,7 +3425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+VSYS"
+		(property "Value" "VSYS"
 			(at 180.34 105.41 0)
 			(effects
 				(font
@@ -3725,77 +3532,6 @@
 			(project "flight-computer-one"
 				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/420394b1-4c9b-4d8d-83f2-b66955e186e4"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Dual_CommonCathode_AAK_Parallel")
-		(at 208.28 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96d024e8-c635-4d80-bbb9-200228076a39")
-		(property "Reference" "D1"
-			(at 208.2165 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMEG4005CT"
-			(at 208.2165 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 209.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4005CT.pdf"
-			(at 209.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, common cathode on pin 3"
-			(at 208.28 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c41d3201-2724-4c44-9565-d5505b3c147b")
-		)
-		(pin "3"
-			(uuid "bc1c9ce7-5289-4aed-858a-b4ed8f22ed82")
-		)
-		(pin "2"
-			(uuid "8b90f8d2-ae64-4d5e-8bf2-6130edaf9125")
-		)
-		(instances
-			(project ""
-				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/420394b1-4c9b-4d8d-83f2-b66955e186e4"
-					(reference "D1")
 					(unit 1)
 				)
 			)

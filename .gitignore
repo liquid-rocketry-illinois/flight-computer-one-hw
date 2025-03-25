@@ -6,4 +6,5 @@ sym-lib-table
 _autosave*
 *.drl
 *.lck
+lib/*.bak
 
