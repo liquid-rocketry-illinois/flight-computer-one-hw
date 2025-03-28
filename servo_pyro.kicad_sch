@@ -1469,7 +1469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3240bec5-3fb9-4279-8093-d5e41d64354a")
-		(property "Reference" "Q5"
+		(property "Reference" "Q7"
 			(at 234.95 88.8999 0)
 			(effects
 				(font
@@ -1544,7 +1544,7 @@
 		(instances
 			(project "flight-computer-one"
 				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/5739fe2c-a9a2-4ba2-9a1a-eb469a62e4fb"
-					(reference "Q5")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
