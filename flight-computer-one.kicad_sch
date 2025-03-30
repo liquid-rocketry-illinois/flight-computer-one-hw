@@ -599,7 +599,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 26.67 255.27 0)
+		(at 24.13 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -607,7 +607,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef4c292")
 		(property "Reference" "H1"
-			(at 29.21 254.1016 0)
+			(at 26.67 172.8216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,7 +616,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 29.21 256.413 0)
+			(at 26.67 175.133 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,7 +625,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 26.67 255.27 0)
+			(at 24.13 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -634,7 +634,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 255.27 0)
+			(at 24.13 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -643,7 +643,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 255.27 0)
+			(at 24.13 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,7 +662,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 26.67 260.35 0)
+		(at 24.13 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -670,7 +670,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef4cf1f")
 		(property "Reference" "H2"
-			(at 29.21 259.1816 0)
+			(at 26.67 177.9016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -679,7 +679,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 29.21 261.493 0)
+			(at 26.67 180.213 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +688,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 26.67 260.35 0)
+			(at 24.13 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -697,7 +697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 260.35 0)
+			(at 24.13 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -706,7 +706,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 260.35 0)
+			(at 24.13 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -725,7 +725,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 26.67 265.43 0)
+		(at 24.13 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -733,7 +733,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef4d323")
 		(property "Reference" "H3"
-			(at 29.21 264.2616 0)
+			(at 26.67 182.9816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +742,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 29.21 266.573 0)
+			(at 26.67 185.293 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,7 +751,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 26.67 265.43 0)
+			(at 24.13 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,7 +760,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 265.43 0)
+			(at 24.13 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +769,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 265.43 0)
+			(at 24.13 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -788,7 +788,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 26.67 270.51 0)
+		(at 24.13 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -796,7 +796,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef4d57b")
 		(property "Reference" "H4"
-			(at 29.21 269.24 0)
+			(at 26.67 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,7 +805,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 29.21 271.653 0)
+			(at 26.67 190.373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -814,7 +814,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 26.67 270.51 0)
+			(at 24.13 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -823,7 +823,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 270.51 0)
+			(at 24.13 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -832,7 +832,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 270.51 0)
+			(at 24.13 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)

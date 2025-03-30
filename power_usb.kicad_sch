@@ -4019,6 +4019,10 @@
 		(uuid "254e2765-3810-4bfb-a80b-ffbb62b761bc")
 	)
 	(no_connect
+		(at 226.06 66.04)
+		(uuid "2dd598b2-4f09-4218-8370-0bdc7e8698f7")
+	)
+	(no_connect
 		(at 63.5 156.21)
 		(uuid "56b7f077-391b-452f-b588-34fd78948ccd")
 	)
@@ -4029,6 +4033,10 @@
 	(no_connect
 		(at 52.07 59.69)
 		(uuid "81cb1b91-49bd-46c7-b06a-219f4598ddd4")
+	)
+	(no_connect
+		(at 226.06 68.58)
+		(uuid "ccba9935-95ce-4844-9a8e-de90eed58bae")
 	)
 	(wire
 		(pts
@@ -4452,6 +4460,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 44.45) (xy 74.93 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d390f8-31d7-4411-bdeb-fe70371455d1")
+	)
+	(wire
+		(pts
 			(xy 53.34 44.45) (xy 53.34 41.91)
 		)
 		(stroke
@@ -4659,6 +4677,16 @@
 			(type default)
 		)
 		(uuid "9e1ffe9a-5212-4454-82ac-e09a2959d87c")
+	)
+	(wire
+		(pts
+			(xy 66.04 46.99) (xy 66.04 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f251aff-3d7c-4d49-b789-649eb24cdace")
 	)
 	(wire
 		(pts
@@ -4902,6 +4930,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 52.07) (xy 215.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e357788a-7245-489c-93fb-0a315db5f9c0")
+	)
+	(wire
+		(pts
 			(xy 53.34 49.53) (xy 53.34 46.99)
 		)
 		(stroke
@@ -5000,7 +5038,7 @@
 		)
 		(uuid "01a26f09-20e8-494b-8088-c90481335fc1")
 	)
-	(label "USB_D+"
+	(label "USB_D-"
 		(at 113.03 60.96 180)
 		(effects
 			(font
@@ -5010,7 +5048,7 @@
 		)
 		(uuid "16fdc8f8-587a-4056-9898-2b82be08177f")
 	)
-	(label "CONN_D+"
+	(label "CONN_D-"
 		(at 76.2 60.96 180)
 		(effects
 			(font
@@ -5020,7 +5058,7 @@
 		)
 		(uuid "17e3fa3f-36c7-4893-aa73-261681267a97")
 	)
-	(label "USB_D-"
+	(label "USB_D+"
 		(at 113.03 63.5 180)
 		(effects
 			(font
@@ -5030,7 +5068,7 @@
 		)
 		(uuid "d2c7cb55-7c46-4b2f-9ffa-d8b8d0feb3d7")
 	)
-	(label "CONN_D-"
+	(label "CONN_D+"
 		(at 76.2 63.5 180)
 		(effects
 			(font
@@ -5417,7 +5455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "VBUS_RAW"
 			(at 86.741 48.9458 0)
 			(effects
 				(font
@@ -5482,7 +5520,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3u"
+		(property "Value" "3.3uH"
 			(at 228.6 116.84 90)
 			(effects
 				(font
@@ -5534,7 +5572,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 43.18 0)
+		(at 74.93 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5542,7 +5580,7 @@
 		(dnp no)
 		(uuid "13379683-ccd7-40c0-815b-71663d5162c0")
 		(property "Reference" "#PWR046"
-			(at 74.93 49.53 0)
+			(at 74.93 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5589,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 75.057 47.5742 0)
+			(at 75.057 48.8442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5597,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 43.18 0)
+			(at 74.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,7 +5606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 43.18 0)
+			(at 74.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,7 +5615,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 43.18 0)
+			(at 74.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,6 +5760,71 @@
 			(project "flight-computer-one"
 				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/420394b1-4c9b-4d8d-83f2-b66955e186e4"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 215.9 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24a0f2a4-279a-475c-a8ee-acb823203ec1")
+		(property "Reference" "#PWR077"
+			(at 215.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 216.281 47.6758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa6cbba5-8eac-4ae1-b8bc-88d7b0682b3a")
+		)
+		(instances
+			(project "flight-computer-one"
+				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/420394b1-4c9b-4d8d-83f2-b66955e186e4"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -6976,7 +7079,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 45.72 0)
+		(at 66.04 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6984,7 +7087,7 @@
 		(dnp no)
 		(uuid "892d3430-1ac8-4825-8346-56111206cb6b")
 		(property "Reference" "#PWR062"
-			(at 66.04 52.07 0)
+			(at 66.04 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6993,7 +7096,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 50.038 0)
+			(at 66.04 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7001,7 +7104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 45.72 0)
+			(at 66.04 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,7 +7113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 45.72 0)
+			(at 66.04 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7019,7 +7122,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 45.72 0)
+			(at 66.04 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7629,7 +7732,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 102.489 33.147 0)
 			(effects
 				(font
