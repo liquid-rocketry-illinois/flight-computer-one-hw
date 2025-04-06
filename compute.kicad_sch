@@ -3787,6 +3787,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 15.24 143.51)
+		(end 73.66 180.34)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 54163751-d7ae-4e18-99af-5e859f751846)
+	)
+	(rectangle
+		(start 219.71 104.14)
+		(end 280.67 158.75)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5b079628-59ca-4774-bb8a-b1cf661c98ad)
+	)
 	(circle
 		(center 44.45 51.435)
 		(radius 0.635)
@@ -6183,16 +6207,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 129.54) (xy 200.66 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e95bc9ce-5422-4260-af24-fb5dcbda81dd")
-	)
-	(wire
-		(pts
 			(xy 45.72 48.26) (xy 45.72 49.53)
 		)
 		(stroke
@@ -6330,6 +6344,16 @@
 			(type default)
 		)
 		(uuid "f7885fe3-7c07-4e75-a4e8-11c7f0ef4aae")
+	)
+	(wire
+		(pts
+			(xy 186.69 129.54) (xy 200.66 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8375b17-6139-40a9-ac81-aaa8843fcfa0")
 	)
 	(wire
 		(pts
@@ -6690,6 +6714,16 @@
 			(justify left bottom)
 		)
 		(uuid "586f7573-1727-42f9-82fb-dc15d433f0c7")
+	)
+	(label "USER_BTN"
+		(at 186.69 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59bd47b6-601c-47d5-ac00-1b471197d431")
 	)
 	(label "SWDIO"
 		(at 40.64 120.65 180)
@@ -8506,7 +8540,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RUN"
 			(at 50.038 107.95 90)
 			(effects
 				(font
