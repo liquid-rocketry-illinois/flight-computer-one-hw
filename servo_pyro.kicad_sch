@@ -1732,12 +1732,12 @@
 		(uuid "f6da21c8-1686-437e-a637-183e21c73564")
 	)
 	(no_connect
-		(at 181.61 60.96)
-		(uuid "201ef2e4-f8bf-4ade-bbdb-be3f4920ca34")
+		(at 181.61 53.34)
+		(uuid "2dfdc6e3-ce43-4201-a3a5-defad6ac2038")
 	)
 	(no_connect
-		(at 181.61 71.12)
-		(uuid "6d44c554-5071-40c8-8f8c-1cce023f5156")
+		(at 181.61 63.5)
+		(uuid "35688e19-25c7-4ad3-bee4-a6ce94494aba")
 	)
 	(no_connect
 		(at 229.87 39.37)
@@ -1935,6 +1935,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 60.96) (xy 181.61 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5786750c-50e2-46a3-9f4a-1c856a49ea06")
+	)
+	(wire
+		(pts
 			(xy 36.83 101.6) (xy 53.34 101.6)
 		)
 		(stroke
@@ -1962,6 +1972,16 @@
 			(type default)
 		)
 		(uuid "6210d4c8-c4c9-4ae3-be91-ff0c91a976f4")
+	)
+	(wire
+		(pts
+			(xy 166.37 71.12) (xy 181.61 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f10526-b455-4163-8771-7ae3add544e5")
 	)
 	(wire
 		(pts
@@ -2105,16 +2125,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 63.5) (xy 181.61 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e5bfa57-42dd-4966-8603-8cdb9761872e")
-	)
-	(wire
-		(pts
 			(xy 59.69 48.26) (xy 63.5 48.26)
 		)
 		(stroke
@@ -2212,16 +2222,6 @@
 			(type default)
 		)
 		(uuid "9eadad57-2bb2-45bf-b7fb-b9242aef7828")
-	)
-	(wire
-		(pts
-			(xy 166.37 53.34) (xy 181.61 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a01b13b0-3468-4b84-997f-0dcb6493159f")
 	)
 	(wire
 		(pts
@@ -2534,6 +2534,16 @@
 		(uuid "11c8df4e-2c90-4efd-bc99-e9561a573a18")
 	)
 	(label "PYRO2_FIRE"
+		(at 166.37 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "391b873d-278e-4586-927d-74cdc9d130c6")
+	)
+	(label "PYRO2_FIRE"
 		(at 36.83 118.11 0)
 		(effects
 			(font
@@ -2554,16 +2564,6 @@
 		(uuid "57ccf681-1aed-4639-aaa4-e44b38796526")
 	)
 	(label "PYRO2_PRSNT"
-		(at 166.37 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59ae8892-4f91-4d3a-b035-80452139bd5c")
-	)
-	(label "PYRO2_PRSNT"
 		(at 123.19 110.49 180)
 		(effects
 			(font
@@ -2572,6 +2572,16 @@
 			(justify right bottom)
 		)
 		(uuid "5df771ce-40fd-498d-a9ea-e6544d261ef2")
+	)
+	(label "PYRO2_PRSNT"
+		(at 166.37 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "609913a5-cdab-40a9-981f-a7dc5dc1c09d")
 	)
 	(label "PYRO2_ARM"
 		(at 36.83 101.6 0)
@@ -2593,16 +2603,6 @@
 		)
 		(uuid "63f70bdc-22fd-459d-a104-ad812e07c49f")
 	)
-	(label "PYRO2_FIRE"
-		(at 166.37 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c5af9a0-e49a-4b55-aec1-8faa29bd43d8")
-	)
 	(label "I2C0_SDA"
 		(at 240.03 62.23 180)
 		(effects
@@ -2622,16 +2622,6 @@
 			(justify left bottom)
 		)
 		(uuid "a4ed9452-d9ac-4fa7-a719-de5beb3f9aa8")
-	)
-	(label "PYRO1_ARM"
-		(at 166.37 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aba95e82-ef7a-451d-bcf1-94abf7f1d1ed")
 	)
 	(label "PYRO1_DRAIN"
 		(at 69.85 38.1 0)
@@ -2654,34 +2644,24 @@
 		(uuid "b7ba43b5-8bb0-499b-885b-b1ce4687dc90")
 	)
 	(label "PYRO2_ARM"
-		(at 166.37 63.5 0)
+		(at 166.37 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "babac5ac-aa75-4e2f-912c-e438cf1a69b0")
+		(uuid "bb7a2920-1cfe-403e-9e0c-a7c3467fe194")
 	)
 	(label "PYRO1_PRSNT"
-		(at 166.37 58.42 0)
+		(at 166.37 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "bac9a441-f7b1-46f0-9768-1d545ed2db9f")
-	)
-	(label "PYRO1_FIRE"
-		(at 166.37 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d1517841-a767-462e-9557-7944062d0fdb")
+		(uuid "ded38f55-f889-40df-9041-0a6af219d2f8")
 	)
 	(label "BUZZER"
 		(at 210.82 134.62 0)
@@ -2693,6 +2673,16 @@
 		)
 		(uuid "e2e2c996-ac11-4ed1-bae1-b32f906eef37")
 	)
+	(label "PYRO1_ARM"
+		(at 166.37 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e35df636-49a6-4bda-8346-c77d078e1832")
+	)
 	(label "PYRO2_DRAIN"
 		(at 69.85 91.44 0)
 		(effects
@@ -2702,6 +2692,16 @@
 			(justify left bottom)
 		)
 		(uuid "e5ad8a50-90c0-446e-82bf-fc9425d0ff27")
+	)
+	(label "PYRO1_FIRE"
+		(at 166.37 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f568a4f5-0877-4f46-8c7f-14a77b7d31f3")
 	)
 	(label "ADS_DECAP"
 		(at 162.56 41.91 0)
@@ -4047,7 +4047,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PKLCS1212E"
+		(property "Value" "AST1109"
 			(at 259.08 123.1899 0)
 			(effects
 				(font
@@ -4056,7 +4056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_Murata_PKLCS1212E"
+		(property "Footprint" "Buzzer_Beeper:Buzzer_Mallory_AST1109MLTRQ"
 			(at 254.635 119.38 90)
 			(effects
 				(font
