@@ -1568,7 +1568,7 @@
 		)
 	)
 	(rectangle
-		(start 209.55 104.14)
+		(start 204.47 104.14)
 		(end 273.05 156.21)
 		(stroke
 			(width 0)
@@ -1865,6 +1865,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 134.62) (xy 224.79 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2792ee34-107d-4e5d-a291-627328467aae")
+	)
+	(wire
+		(pts
 			(xy 85.09 57.15) (xy 85.09 59.69)
 		)
 		(stroke
@@ -1985,7 +1995,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 57.15) (xy 240.03 57.15)
+			(xy 229.87 57.15) (xy 232.41 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2025,7 +2035,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 62.23) (xy 240.03 62.23)
+			(xy 229.87 62.23) (xy 232.41 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2195,16 +2205,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 134.62) (xy 222.25 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99360f89-c942-4fed-af89-ad62007aaffa")
-	)
-	(wire
-		(pts
 			(xy 229.87 85.09) (xy 229.87 83.82)
 		)
 		(stroke
@@ -2215,7 +2215,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 134.62) (xy 236.22 134.62)
+			(xy 232.41 134.62) (xy 236.22 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2593,26 +2593,6 @@
 		)
 		(uuid "62c2a890-04d3-4279-be77-0404cbd03ad2")
 	)
-	(label "I2C0_SCL"
-		(at 240.03 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "63f70bdc-22fd-459d-a104-ad812e07c49f")
-	)
-	(label "I2C0_SDA"
-		(at 240.03 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7864d407-076b-4fab-ac0e-6379b36ca63e")
-	)
 	(label "PYRO1_ARM"
 		(at 36.83 48.26 0)
 		(effects
@@ -2663,16 +2643,6 @@
 		)
 		(uuid "ded38f55-f889-40df-9041-0a6af219d2f8")
 	)
-	(label "BUZZER"
-		(at 210.82 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e2e2c996-ac11-4ed1-bae1-b32f906eef37")
-	)
 	(label "PYRO1_ARM"
 		(at 166.37 71.12 0)
 		(effects
@@ -2712,6 +2682,39 @@
 			(justify left bottom)
 		)
 		(uuid "fe8e9db8-ed37-4b01-8f95-36dc49ad9fef")
+	)
+	(hierarchical_label "BUZZER_CTL"
+		(shape input)
+		(at 219.71 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "165ef6e6-5a86-4ea4-81e6-ef6519c7799d")
+	)
+	(hierarchical_label "I2C0_SCL"
+		(shape input)
+		(at 232.41 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e298e4df-111f-4a82-b77f-1cfb92d111af")
+	)
+	(hierarchical_label "I2C0_SDA"
+		(shape bidirectional)
+		(at 232.41 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed05bff8-2e6b-4ddc-b880-1bb892611d12")
 	)
 	(symbol
 		(lib_id "Transistor_FET:CSD17313Q2")
@@ -5516,7 +5519,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 226.06 134.62 90)
+		(at 228.6 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5525,7 +5528,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd150761-ce0b-4aa1-87fe-2dcd1de9966f")
 		(property "Reference" "R15"
-			(at 226.06 128.27 90)
+			(at 228.6 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5536,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 226.06 130.81 90)
+			(at 228.6 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5544,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 226.06 136.398 90)
+			(at 228.6 136.398 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5553,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 134.62 0)
+			(at 228.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5562,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 226.06 134.62 0)
+			(at 228.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)

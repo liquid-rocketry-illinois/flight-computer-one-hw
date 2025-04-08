@@ -4870,7 +4870,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 60.96) (xy 113.03 60.96)
+			(xy 91.44 60.96) (xy 106.68 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4880,7 +4880,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 134.62) (xy 245.11 134.62)
+			(xy 233.68 134.62) (xy 241.3 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5490,7 +5490,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 113.03 63.5)
+			(xy 91.44 63.5) (xy 106.68 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5570,7 +5570,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 137.16) (xy 245.11 137.16)
+			(xy 233.68 137.16) (xy 241.3 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5878,16 +5878,6 @@
 		)
 		(uuid "097c2ab8-9559-4e9e-92ee-d91e041e4357")
 	)
-	(label "USB_D-"
-		(at 113.03 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "16fdc8f8-587a-4056-9898-2b82be08177f")
-	)
 	(label "CONN_D-"
 		(at 76.2 60.96 180)
 		(effects
@@ -5898,35 +5888,15 @@
 		)
 		(uuid "17e3fa3f-36c7-4893-aa73-261681267a97")
 	)
-	(label "I2C0_SCL"
-		(at 245.11 137.16 180)
+	(label "TPS_EN"
+		(at 184.15 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "19023062-f77d-4ba9-af66-3990ed96326f")
-	)
-	(label "I2C0_SDA"
-		(at 245.11 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "658d9e08-2115-4858-9d51-c76c02af4d81")
-	)
-	(label "USB_D+"
-		(at 113.03 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d2c7cb55-7c46-4b2f-9ffa-d8b8d0feb3d7")
+		(uuid "21827745-3795-42ac-914f-d90da3bd00bd")
 	)
 	(label "CONN_D+"
 		(at 76.2 63.5 180)
@@ -5957,6 +5927,50 @@
 			(justify left bottom)
 		)
 		(uuid "fdc21c83-88ba-49e2-b4e8-a0d60f5e2e7f")
+	)
+	(hierarchical_label "I2C0_SCL"
+		(shape input)
+		(at 241.3 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cb1fe27-96e0-425c-9a26-51f9c69178a4")
+	)
+	(hierarchical_label "I2C0_SDA"
+		(shape bidirectional)
+		(at 241.3 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "672d3ed9-a187-4a01-a231-7111cfc5ca41")
+	)
+	(hierarchical_label "USB_D-"
+		(shape bidirectional)
+		(at 106.68 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7297eccc-761b-40ca-9c69-96cb1b9ef5fb")
+	)
+	(hierarchical_label "USB_D+"
+		(shape bidirectional)
+		(at 106.68 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d50a09c2-8f30-4d22-adc0-a26520b037e1")
 	)
 	(symbol
 		(lib_id "power:VBUS")
