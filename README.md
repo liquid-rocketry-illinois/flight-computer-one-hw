@@ -7,6 +7,11 @@ Electric Angel is a 50mm x 100mm rectangle and is designed to fit longitudinally
 
 NOTE: The RP2350B was chosen for its relatively good backwards compatibility, as well as its increased GPIO count; it is a *bad* chip on many hardware levels (see Erratum E9, onchip SMPS layout, flash and crystal option limitations, etc). Future boards should utilize other, more robust microcontrollers like STM32s.
 
+<p align="center">
+  <img src="electricangel-front.png" alt="Electric Angel front render" width="45%" />
+  <img src="electricangel-back.png" alt="Electric Angel back render" width="45%" />
+</p>
+
 Ingredients:
 * The "brain", a Raspberry Pi Silicon RP2350B
 * Various digital sensors
