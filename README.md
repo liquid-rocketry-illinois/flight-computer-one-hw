@@ -1,4 +1,4 @@
-# Flight Computer One "Electric Angel"
+# LRI Flight Computer One "Electric Angel"
 KiCad PCB repository for Electric Angel, LRI's first fully featured flight computer. An evolution of the Flight Computer Lite (nicknamed Digital Tripper), it integrates several great new features, like a packet radio, CAN FD, hardware floating-point acceleration, pyro channels, servo controls and more! Electric Angel can do many things: it can fly model rockets with active controls, act as a wireless comms link for liquid powertrain operation, or maybe someday, both at the same time. It can also log data at a rate exceeding that of Digital Tripper.
 
 Electric Angel integrates the Raspberry Pi RP2350 microcontroller. Control and comms code written for Digital Tripper is directly portable due to architecural similarities with the RP2040. Obviously the board layouts are not identical, so relevant changes for interfacing with the other chips will need to be made to any code written for DT.
