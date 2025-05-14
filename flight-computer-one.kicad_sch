@@ -1313,7 +1313,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 149.86) (xy 233.68 149.86)
+			(xy 173.99 148.59) (xy 233.68 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1330,6 +1330,16 @@
 			(type default)
 		)
 		(uuid "18c3bcf1-3e9c-4205-b401-aa41e2c701e4")
+	)
+	(wire
+		(pts
+			(xy 121.92 166.37) (xy 137.16 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19873331-62e5-4355-85bd-9cba8cccd60a")
 	)
 	(wire
 		(pts
@@ -1410,6 +1420,26 @@
 			(type default)
 		)
 		(uuid "24e2d738-e7b0-4faa-ae73-f58e97ae139b")
+	)
+	(wire
+		(pts
+			(xy 214.63 157.48) (xy 233.68 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26cc22f2-bad6-4c64-a0fe-badf01c3d7b8")
+	)
+	(wire
+		(pts
+			(xy 214.63 154.94) (xy 233.68 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279e1cac-6119-4e24-a43f-02c17663e47d")
 	)
 	(wire
 		(pts
@@ -1533,7 +1563,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 91.44) (xy 210.82 144.78)
+			(xy 210.82 91.44) (xy 210.82 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1663,16 +1693,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 166.37) (xy 137.16 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ad85bae-8566-4b80-99a2-1589be32a0b0")
-	)
-	(wire
-		(pts
 			(xy 139.7 93.98) (xy 154.94 93.98)
 		)
 		(stroke
@@ -1690,6 +1710,16 @@
 			(type default)
 		)
 		(uuid "7d880ca0-3608-4d16-bbb6-ac74ef3b7da3")
+	)
+	(wire
+		(pts
+			(xy 121.92 161.29) (xy 137.16 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ddf67f1-836e-4ea9-a9ff-d804303abfe7")
 	)
 	(wire
 		(pts
@@ -1840,16 +1870,6 @@
 			(type default)
 		)
 		(uuid "9767a28d-7399-414f-a4dc-265b2cfa3b9f")
-	)
-	(wire
-		(pts
-			(xy 121.92 161.29) (xy 137.16 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98bbc7a8-4406-4039-967d-41937adde163")
 	)
 	(wire
 		(pts
@@ -2023,7 +2043,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 144.78) (xy 233.68 144.78)
+			(xy 210.82 143.51) (xy 233.68 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2043,7 +2063,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 110.49) (xy 173.99 149.86)
+			(xy 173.99 110.49) (xy 173.99 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2121,16 +2141,6 @@
 		)
 		(uuid "f6fabb41-2d68-490d-8463-b118e306d028")
 	)
-	(label "PYRO2_DRAIN"
-		(at 137.16 166.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "02b0d3af-e8e5-4418-9c9b-6875da49cc6b")
-	)
 	(label "CANL"
 		(at 137.16 171.45 180)
 		(effects
@@ -2171,16 +2181,6 @@
 		)
 		(uuid "83fb78da-79c3-4a5c-90bd-4b10aed821e3")
 	)
-	(label "PYRO1_DRAIN"
-		(at 137.16 161.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8b0a0541-4f91-43ef-85a1-eb2f61aff0c1")
-	)
 	(label "CANH"
 		(at 137.16 168.91 180)
 		(effects
@@ -2191,6 +2191,16 @@
 		)
 		(uuid "959e266f-0af1-4ce7-a474-0b3a66de2784")
 	)
+	(label "PYRO2_DRAIN"
+		(at 214.63 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac22b5ec-fd68-4c4c-b8bd-175fd0190d56")
+	)
 	(label "GPIO40_ADC0"
 		(at 154.94 99.06 180)
 		(effects
@@ -2200,6 +2210,16 @@
 			(justify right bottom)
 		)
 		(uuid "b905d403-9343-49da-82fb-ae3779d4ad62")
+	)
+	(label "PYRO2_DRAIN"
+		(at 137.16 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbd6c58f-6af5-4882-878f-eb78e73dca91")
 	)
 	(label "CANH"
 		(at 223.52 118.11 0)
@@ -2231,6 +2251,16 @@
 		)
 		(uuid "d14577b2-2e23-4a3c-942f-49dc827c441a")
 	)
+	(label "PYRO1_DRAIN"
+		(at 137.16 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5c48764-618b-45e0-b921-3baef8a70d80")
+	)
 	(label "SERVO4_CTL"
 		(at 154.94 93.98 180)
 		(effects
@@ -2250,6 +2280,16 @@
 			(justify right bottom)
 		)
 		(uuid "dc7023e3-5fe8-4d40-af6e-83c7153cb251")
+	)
+	(label "PYRO1_DRAIN"
+		(at 214.63 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de0fae7c-3194-400c-b0ee-a455c9559930")
 	)
 	(label "SERVO3_CTL"
 		(at 66.04 173.99 0)
@@ -3681,7 +3721,7 @@
 	)
 	(sheet
 		(at 233.68 135.89)
-		(size 22.86 17.78)
+		(size 22.86 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3705,7 +3745,7 @@
 			)
 		)
 		(property "Sheetfile" "servo_pyro.kicad_sch"
-			(at 233.68 154.2546 0)
+			(at 233.68 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3754,7 @@
 			)
 		)
 		(pin "BUZZER_CTL" input
-			(at 233.68 149.86 180)
+			(at 233.68 148.59 180)
 			(uuid "49b551d4-3bc6-4ea0-a527-e210fcfcf5c4")
 			(effects
 				(font
@@ -3724,7 +3764,7 @@
 			)
 		)
 		(pin "I2C0_SCL" input
-			(at 233.68 144.78 180)
+			(at 233.68 143.51 180)
 			(uuid "e573faa9-d9b5-4584-802a-f510a97f914a")
 			(effects
 				(font
@@ -3736,6 +3776,26 @@
 		(pin "I2C0_SDA" bidirectional
 			(at 233.68 139.7 180)
 			(uuid "ae45bdb0-89c6-4f57-9d96-098b4b747007")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PYRO1_DRAIN" input
+			(at 233.68 154.94 180)
+			(uuid "497b8677-a18f-4680-a735-97666f029c58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PYRO2_DRAIN" input
+			(at 233.68 157.48 180)
+			(uuid "63427b48-d3f9-463d-8f6e-23ed3eb68d15")
 			(effects
 				(font
 					(size 1.27 1.27)
