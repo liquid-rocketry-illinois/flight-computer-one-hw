@@ -3573,6 +3573,16 @@
 		)
 		(uuid 54163751-d7ae-4e18-99af-5e859f751846)
 	)
+	(text "SERCOM5"
+		(exclude_from_sim no)
+		(at 177.038 61.468 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2aa1c1a8-9990-409f-9572-f6ad632b3fa0")
+	)
 	(text "CAN0"
 		(exclude_from_sim no)
 		(at 77.978 108.204 90)
@@ -3834,6 +3844,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 73.66) (xy 134.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf3c957-4810-42af-86f3-ac64dfd159bf")
+	)
+	(wire
+		(pts
 			(xy 46.99 154.94) (xy 46.99 157.48)
 		)
 		(stroke
@@ -3984,6 +4004,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 55.88) (xy 134.62 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b838117-d136-4a26-a4f4-63f41e0d908e")
+	)
+	(wire
+		(pts
 			(xy 198.12 132.08) (xy 198.12 134.62)
 		)
 		(stroke
@@ -4071,6 +4101,16 @@
 			(type default)
 		)
 		(uuid "3f47a68d-faf2-477e-94bf-76774d2b1166")
+	)
+	(wire
+		(pts
+			(xy 90.17 50.8) (xy 95.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d8e5b8-8819-45d6-917c-880f41d4073c")
 	)
 	(wire
 		(pts
@@ -4171,6 +4211,16 @@
 			(type default)
 		)
 		(uuid "5337be92-3842-4509-b423-1416421beed9")
+	)
+	(wire
+		(pts
+			(xy 130.81 58.42) (xy 134.62 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56228f78-26f2-43d2-8ac8-04a6910b30f3")
 	)
 	(wire
 		(pts
@@ -4664,6 +4714,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 76.2) (xy 134.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd58e992-1ea6-4b5d-8d5a-ac24405e6e37")
+	)
+	(wire
+		(pts
 			(xy 22.86 93.98) (xy 25.4 93.98)
 		)
 		(stroke
@@ -4711,6 +4771,16 @@
 			(type default)
 		)
 		(uuid "c8289ae2-c7fc-4828-8593-53cbbd34ceed")
+	)
+	(wire
+		(pts
+			(xy 130.81 53.34) (xy 134.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3feb0e-b7e4-4431-b7ca-0b17e4640931")
 	)
 	(wire
 		(pts
@@ -4771,6 +4841,16 @@
 			(type default)
 		)
 		(uuid "d5659966-2276-452e-bfe0-4310a714942a")
+	)
+	(wire
+		(pts
+			(xy 130.81 60.96) (xy 134.62 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59b8f17-5d12-4202-aef3-025821a9adef")
 	)
 	(wire
 		(pts
@@ -4971,6 +5051,16 @@
 			(type default)
 		)
 		(uuid "fbc2c448-a7bb-4a56-b9de-1d9d39a6df06")
+	)
+	(wire
+		(pts
+			(xy 87.63 66.04) (xy 95.25 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc2ff61-b1fc-4857-bff3-461c0f210670")
 	)
 	(wire
 		(pts
@@ -5264,23 +5354,23 @@
 	)
 	(hierarchical_label "SPI0_MOSI"
 		(shape output)
-		(at 77.47 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0d78b359-145d-458d-8bec-7176967d62f2")
-	)
-	(hierarchical_label "TCAN_STB"
-		(shape output)
-		(at 143.51 66.04 0)
+		(at 134.62 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "0d78b359-145d-458d-8bec-7176967d62f2")
+	)
+	(hierarchical_label "TCAN_STB"
+		(shape output)
+		(at 87.63 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "0ed8ad76-e1c9-4df2-a090-cc6b99eb6217")
 	)
@@ -5319,7 +5409,7 @@
 	)
 	(hierarchical_label "I2C0_SDA"
 		(shape bidirectional)
-		(at 160.02 55.88 0)
+		(at 134.62 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5362,12 +5452,12 @@
 	)
 	(hierarchical_label "SPI0_MISO"
 		(shape input)
-		(at 77.47 68.58 180)
+		(at 134.62 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "7291755e-4ab7-4873-a274-c9b8fc24c25d")
 	)
@@ -5394,18 +5484,18 @@
 	)
 	(hierarchical_label "SPI0_SCK"
 		(shape output)
-		(at 92.71 63.5 180)
+		(at 134.62 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8b84526a-4bac-4dbe-8b33-1bcd10fd6476")
 	)
 	(hierarchical_label "CS_RADIO"
 		(shape output)
-		(at 77.47 49.53 180)
+		(at 90.17 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5427,7 +5517,7 @@
 	)
 	(hierarchical_label "I2C0_SCL"
 		(shape output)
-		(at 160.02 58.42 0)
+		(at 134.62 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5460,12 +5550,12 @@
 	)
 	(hierarchical_label "CS_IMU_MAIN"
 		(shape output)
-		(at 92.71 66.04 180)
+		(at 134.62 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f9fea318-8c5a-4722-8cf7-fb2cc018c5b3")
 	)
