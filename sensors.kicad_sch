@@ -2004,7 +2004,7 @@
 		)
 		(uuid "4332a546-ffe9-49db-98ad-44441e6a5f48")
 	)
-	(text "Main IMU\nSPI, active w CS_IMU_MAIN"
+	(text "Main IMU\nI2C Address: 0x69"
 		(exclude_from_sim no)
 		(at 164.338 94.234 0)
 		(effects
@@ -2051,6 +2051,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "125d0e34-c661-4afc-a607-00c2e85e9618")
+	)
+	(junction
+		(at 144.78 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17d34ec1-1eac-434e-85ff-efb57a30efa8")
 	)
 	(junction
 		(at 53.34 102.87)
@@ -2268,6 +2274,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 129.54) (xy 146.05 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12226b13-caa8-4ae6-ad8d-152cf467fef8")
+	)
+	(wire
+		(pts
 			(xy 116.84 109.22) (xy 116.84 107.95)
 		)
 		(stroke
@@ -2328,16 +2344,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 129.54) (xy 146.05 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1af67bee-dec2-4bba-b2ee-8dd33f98eaf3")
-	)
-	(wire
-		(pts
 			(xy 53.34 101.6) (xy 53.34 102.87)
 		)
 		(stroke
@@ -2365,6 +2371,16 @@
 			(type default)
 		)
 		(uuid "214a075e-ef16-4c68-9b09-f9dd010b6fc0")
+	)
+	(wire
+		(pts
+			(xy 146.05 124.46) (xy 144.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2150bb7e-0b50-4e5b-8d42-4411ec236fa1")
 	)
 	(wire
 		(pts
@@ -2728,6 +2744,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 124.46) (xy 144.78 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c442bde-022b-4d33-bda5-0fbad43e9137")
+	)
+	(wire
+		(pts
 			(xy 66.04 125.73) (xy 53.34 125.73)
 		)
 		(stroke
@@ -2818,6 +2844,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 133.35) (xy 144.78 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcbb26af-78dc-4974-bd93-f76bc2f16a96")
+	)
+	(wire
+		(pts
 			(xy 66.04 119.38) (xy 66.04 125.73)
 		)
 		(stroke
@@ -2858,6 +2894,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 127) (xy 146.05 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfad5cd9-51fd-4e31-b8ca-b26aa31d90c2")
+	)
+	(wire
+		(pts
 			(xy 116.84 118.11) (xy 129.54 118.11)
 		)
 		(stroke
@@ -2895,16 +2941,6 @@
 			(type default)
 		)
 		(uuid "c866b48a-e2c1-4151-96ed-9a1624054385")
-	)
-	(wire
-		(pts
-			(xy 138.43 127) (xy 146.05 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c86e5dcc-8f71-4cd5-b214-50b657dac1b7")
 	)
 	(wire
 		(pts
@@ -3018,26 +3054,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 132.08) (xy 146.05 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deb44c6a-f773-440e-a173-332441ecf263")
-	)
-	(wire
-		(pts
-			(xy 138.43 124.46) (xy 146.05 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e22b369f-3320-4d98-9f6b-b5e1f2390fb3")
-	)
-	(wire
-		(pts
 			(xy 116.84 106.68) (xy 116.84 107.95)
 		)
 		(stroke
@@ -3065,6 +3081,16 @@
 			(type default)
 		)
 		(uuid "e543ebd1-6660-4545-b6cc-1e41c4f7e04e")
+	)
+	(wire
+		(pts
+			(xy 144.78 132.08) (xy 146.05 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae6f093-f84c-47f5-8294-80e25a2e2d21")
 	)
 	(wire
 		(pts
@@ -3166,17 +3192,6 @@
 		)
 		(uuid "f9ba90d6-c844-429a-9212-30fc26f54a1e")
 	)
-	(hierarchical_label "SPI0_MOSI"
-		(shape input)
-		(at 138.43 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "107b5f68-b987-46a6-b4ed-6b4cd1b3ae21")
-	)
 	(hierarchical_label "I2C0_SCL"
 		(shape input)
 		(at 125.73 54.61 180)
@@ -3221,38 +3236,16 @@
 		)
 		(uuid "593f528c-b7ae-46d2-a1cc-06d6229dd29c")
 	)
-	(hierarchical_label "CS_IMU_MAIN"
-		(shape input)
-		(at 138.43 124.46 180)
+	(hierarchical_label "I2C0_SDA"
+		(shape bidirectional)
+		(at 142.24 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "6298c1eb-066d-4d88-9ac7-b00996985063")
-	)
-	(hierarchical_label "SPI0_MISO"
-		(shape output)
-		(at 138.43 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6946c580-2b82-4583-867f-bd858b1225e4")
-	)
-	(hierarchical_label "SPI0_SCK"
-		(shape input)
-		(at 138.43 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8953e37a-03fa-48a9-a8ec-86b5c2c91848")
+		(uuid "6d993b79-c1a5-4b52-909b-4fb00205237f")
 	)
 	(hierarchical_label "I2C0_SDA"
 		(shape bidirectional)
@@ -3275,6 +3268,17 @@
 			(justify right)
 		)
 		(uuid "be1a81da-387c-439a-80ae-47653a510fa1")
+	)
+	(hierarchical_label "I2C0_SCL"
+		(shape input)
+		(at 142.24 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ceb78d2d-23df-4692-94e1-eba67e95c884")
 	)
 	(hierarchical_label "I2C0_SCL"
 		(shape input)
@@ -3840,6 +3844,72 @@
 			(project "flight-computer-one"
 				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/f69b98ff-ab10-4478-a5d1-a0199723a258"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 144.78 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64b7ddc9-3295-4a14-8ec2-f64124e85ad2")
+		(property "Reference" "#PWR0101"
+			(at 144.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 144.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71771bac-54c3-46fe-a01f-4b833586ef68")
+		)
+		(instances
+			(project "flight-computer-one"
+				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/f69b98ff-ab10-4478-a5d1-a0199723a258"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)

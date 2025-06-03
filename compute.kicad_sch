@@ -4774,16 +4774,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 53.34) (xy 134.62 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca3feb0e-b7e4-4431-b7ca-0b17e4640931")
-	)
-	(wire
-		(pts
 			(xy 115.57 132.08) (xy 115.57 133.35)
 		)
 		(stroke
@@ -5547,17 +5537,6 @@
 			(justify left)
 		)
 		(uuid "df7be795-35c5-41e2-bc7b-ec46e042c4f8")
-	)
-	(hierarchical_label "CS_IMU_MAIN"
-		(shape output)
-		(at 134.62 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9fea318-8c5a-4722-8cf7-fb2cc018c5b3")
 	)
 	(hierarchical_label "SERVO3_CTL"
 		(shape output)
