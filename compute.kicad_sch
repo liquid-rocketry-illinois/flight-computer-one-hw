@@ -3302,6 +3302,16 @@
 		)
 		(uuid "2aa1c1a8-9990-409f-9572-f6ad632b3fa0")
 	)
+	(text "SERCOM2"
+		(exclude_from_sim no)
+		(at 75.692 83.312 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7caaf376-4eb8-4810-b631-78677f704b6d")
+	)
 	(text "CAN0"
 		(exclude_from_sim no)
 		(at 77.978 108.204 90)
@@ -3604,6 +3614,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 83.82) (xy 95.25 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c899c51-9ce9-4b73-b29d-24ce7557219c")
+	)
+	(wire
+		(pts
 			(xy 132.08 26.67) (xy 143.51 26.67)
 		)
 		(stroke
@@ -3671,6 +3691,16 @@
 			(type default)
 		)
 		(uuid "249a8970-7ce9-49b9-9672-74557b72319f")
+	)
+	(wire
+		(pts
+			(xy 87.63 81.28) (xy 95.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25be1202-7a7c-4003-b40f-88f616be4fce")
 	)
 	(wire
 		(pts
@@ -5204,6 +5234,28 @@
 			(justify right)
 		)
 		(uuid "e0bce19c-1d22-4712-8000-366cbf0fea91")
+	)
+	(hierarchical_label "I2C1_SDA"
+		(shape bidirectional)
+		(at 87.63 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e71c7d9e-6104-4cf8-95d6-d7891db52381")
+	)
+	(hierarchical_label "I2C1_SCL"
+		(shape output)
+		(at 87.63 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5dab43a-43f0-41d9-aa5e-b73f86cd6ba1")
 	)
 	(hierarchical_label "SERVO3_CTL"
 		(shape output)
