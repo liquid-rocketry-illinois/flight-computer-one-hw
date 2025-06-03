@@ -2053,12 +2053,6 @@
 		(uuid "125d0e34-c661-4afc-a607-00c2e85e9618")
 	)
 	(junction
-		(at 144.78 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17d34ec1-1eac-434e-85ff-efb57a30efa8")
-	)
-	(junction
 		(at 53.34 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2224,6 +2218,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 129.54) (xy 146.05 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005fa3b0-3fec-438a-8cdd-827b5c4ccbc9")
+	)
+	(wire
+		(pts
 			(xy 161.29 34.29) (xy 161.29 33.02)
 		)
 		(stroke
@@ -2271,16 +2275,6 @@
 			(type default)
 		)
 		(uuid "094972c8-49e1-4067-8ffc-779b1d6e8b93")
-	)
-	(wire
-		(pts
-			(xy 142.24 129.54) (xy 146.05 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12226b13-caa8-4ae6-ad8d-152cf467fef8")
 	)
 	(wire
 		(pts
@@ -2374,16 +2368,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 124.46) (xy 144.78 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2150bb7e-0b50-4e5b-8d42-4411ec236fa1")
-	)
-	(wire
-		(pts
 			(xy 72.39 67.31) (xy 72.39 69.85)
 		)
 		(stroke
@@ -2431,6 +2415,16 @@
 			(type default)
 		)
 		(uuid "33e8abee-f83d-443d-b4ee-b4ccfaa9addf")
+	)
+	(wire
+		(pts
+			(xy 142.24 124.46) (xy 146.05 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3626302a-db01-459a-9bcb-e2f11510ed5e")
 	)
 	(wire
 		(pts
@@ -2514,6 +2508,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 127) (xy 146.05 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e61b760-3de7-4e5d-be64-d174fb687a60")
+	)
+	(wire
+		(pts
 			(xy 140.97 109.22) (xy 140.97 107.95)
 		)
 		(stroke
@@ -2571,6 +2575,16 @@
 			(type default)
 		)
 		(uuid "5edf1d49-5baa-42c4-a90e-5801ac331a44")
+	)
+	(wire
+		(pts
+			(xy 142.24 132.08) (xy 146.05 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5fc29c-bf90-4c9d-9546-da3af4bafa13")
 	)
 	(wire
 		(pts
@@ -2744,16 +2758,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 124.46) (xy 144.78 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c442bde-022b-4d33-bda5-0fbad43e9137")
-	)
-	(wire
-		(pts
 			(xy 66.04 125.73) (xy 53.34 125.73)
 		)
 		(stroke
@@ -2844,16 +2848,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 133.35) (xy 144.78 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcbb26af-78dc-4974-bd93-f76bc2f16a96")
-	)
-	(wire
-		(pts
 			(xy 66.04 119.38) (xy 66.04 125.73)
 		)
 		(stroke
@@ -2891,16 +2885,6 @@
 			(type default)
 		)
 		(uuid "be6ddb0a-673d-4403-84e2-77cba0380f56")
-	)
-	(wire
-		(pts
-			(xy 142.24 127) (xy 146.05 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfad5cd9-51fd-4e31-b8ca-b26aa31d90c2")
 	)
 	(wire
 		(pts
@@ -3084,16 +3068,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 132.08) (xy 146.05 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eae6f093-f84c-47f5-8294-80e25a2e2d21")
-	)
-	(wire
-		(pts
 			(xy 116.84 118.11) (xy 116.84 119.38)
 		)
 		(stroke
@@ -3192,6 +3166,17 @@
 		)
 		(uuid "f9ba90d6-c844-429a-9212-30fc26f54a1e")
 	)
+	(hierarchical_label "SPI0_MOSI"
+		(shape output)
+		(at 142.24 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ad7eae3-37a4-497a-be6d-46e9622f38cb")
+	)
 	(hierarchical_label "I2C0_SCL"
 		(shape input)
 		(at 125.73 54.61 180)
@@ -3202,6 +3187,17 @@
 			(justify right)
 		)
 		(uuid "1bacf55a-5a02-4a90-ab9b-0a404b106d6e")
+	)
+	(hierarchical_label "SPI0_MISO"
+		(shape output)
+		(at 142.24 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33eb8f96-549a-42c5-b6a5-9b46fbf3f3c7")
 	)
 	(hierarchical_label "I2C0_SDA"
 		(shape bidirectional)
@@ -3238,17 +3234,6 @@
 	)
 	(hierarchical_label "I2C0_SDA"
 		(shape bidirectional)
-		(at 142.24 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6d993b79-c1a5-4b52-909b-4fb00205237f")
-	)
-	(hierarchical_label "I2C0_SDA"
-		(shape bidirectional)
 		(at 217.17 59.69 180)
 		(effects
 			(font
@@ -3257,6 +3242,17 @@
 			(justify right)
 		)
 		(uuid "abc5e64d-89a5-4303-863c-bc1d917fe759")
+	)
+	(hierarchical_label "CS_ICM"
+		(shape output)
+		(at 142.24 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9824652-7e5e-4110-8b54-1d51f4b28620")
 	)
 	(hierarchical_label "I2C0_SDA"
 		(shape bidirectional)
@@ -3268,17 +3264,6 @@
 			(justify right)
 		)
 		(uuid "be1a81da-387c-439a-80ae-47653a510fa1")
-	)
-	(hierarchical_label "I2C0_SCL"
-		(shape input)
-		(at 142.24 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ceb78d2d-23df-4692-94e1-eba67e95c884")
 	)
 	(hierarchical_label "I2C0_SCL"
 		(shape input)
@@ -3301,6 +3286,17 @@
 			(justify right)
 		)
 		(uuid "d632bc3b-10cf-4c66-ab7f-9a33e6d1376e")
+	)
+	(hierarchical_label "SPI0_SCK"
+		(shape input)
+		(at 142.24 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0db5356-0c69-476e-9771-04d4806c4550")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3844,72 +3840,6 @@
 			(project "flight-computer-one"
 				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/f69b98ff-ab10-4478-a5d1-a0199723a258"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 144.78 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64b7ddc9-3295-4a14-8ec2-f64124e85ad2")
-		(property "Reference" "#PWR0101"
-			(at 144.78 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 144.78 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71771bac-54c3-46fe-a01f-4b833586ef68")
-		)
-		(instances
-			(project "flight-computer-one"
-				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/f69b98ff-ab10-4478-a5d1-a0199723a258"
-					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
