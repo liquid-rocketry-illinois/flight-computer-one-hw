@@ -3465,12 +3465,20 @@
 		(uuid "2fe57079-a21a-4e3f-8958-fbd408b2aa23")
 	)
 	(no_connect
+		(at 226.06 60.96)
+		(uuid "3514733a-4b27-46b3-961e-e62451466ac0")
+	)
+	(no_connect
 		(at 130.81 101.6)
 		(uuid "3be28bec-e3df-40f2-91fa-b79b9f3434e5")
 	)
 	(no_connect
 		(at 95.25 104.14)
 		(uuid "c0bccca6-f753-4026-80e4-b5a654589bfd")
+	)
+	(no_connect
+		(at 226.06 78.74)
+		(uuid "c95b4920-b865-43c8-9b93-b237704ea1a0")
 	)
 	(no_connect
 		(at 95.25 116.84)
@@ -4340,16 +4348,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 78.74) (xy 226.06 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f9f307-f6d0-45a3-a36d-af7fb3d6254f")
-	)
-	(wire
-		(pts
 			(xy 110.49 40.64) (xy 110.49 35.56)
 		)
 		(stroke
@@ -4477,16 +4475,6 @@
 			(type default)
 		)
 		(uuid "dc1875fb-4835-43fb-8ed0-03ab58364349")
-	)
-	(wire
-		(pts
-			(xy 208.28 60.96) (xy 226.06 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc5f1f83-1baa-47fd-973e-820801743f80")
 	)
 	(wire
 		(pts
@@ -4658,7 +4646,7 @@
 		)
 		(uuid "02266bf5-823e-449f-b81c-2d560ed07beb")
 	)
-	(label "CMD{slash}MOSI"
+	(label "SPI_MOSI"
 		(at 208.28 66.04 0)
 		(effects
 			(font
@@ -4678,7 +4666,7 @@
 		)
 		(uuid "11b150fe-d42a-4b26-9a40-9ef911e7065d")
 	)
-	(label "DAT0{slash}MISO"
+	(label "SPI_MISO"
 		(at 208.28 76.2 0)
 		(effects
 			(font
@@ -4717,16 +4705,6 @@
 			(justify right bottom)
 		)
 		(uuid "4bbc8791-9743-497e-8ff0-afa51ab08baa")
-	)
-	(label "DAT2"
-		(at 208.28 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e8c9eea-153a-4ce9-b4ec-bf2790e2ca1c")
 	)
 	(label "USER_BTN"
 		(at 184.15 134.62 0)
@@ -4818,7 +4796,7 @@
 		)
 		(uuid "86e52694-7d61-4926-a05f-a12c5d87884b")
 	)
-	(label "SD_CLK"
+	(label "SPI_SCK"
 		(at 208.28 71.12 0)
 		(effects
 			(font
@@ -4838,7 +4816,7 @@
 		)
 		(uuid "8c3ecc83-eb16-425e-a090-49f0a15a615e")
 	)
-	(label "DAT3{slash}CS"
+	(label "SD_CS"
 		(at 208.28 63.5 0)
 		(effects
 			(font
@@ -4877,16 +4855,6 @@
 			(justify right bottom)
 		)
 		(uuid "d822449c-1831-4ae8-8981-adbae59d87bb")
-	)
-	(label "DAT1"
-		(at 208.28 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd9a1d90-fd99-41d0-928a-c69602847c39")
 	)
 	(label "~{RESET}"
 		(at 82.55 127 0)
