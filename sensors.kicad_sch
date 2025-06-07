@@ -3491,6 +3491,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK Part" "https://www.digikey.com/en/products/detail/sensirion-ag/SHT40-AD1B-R2/13532084"
+			(at 227.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1d970a79-576e-4b8a-9f58-e30e6a04650c")
 		)
@@ -4024,6 +4033,15 @@
 			)
 		)
 		(property "Description" "Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Part" "https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/MS561101BA03-50/5277445"
 			(at 53.34 114.3 0)
 			(effects
 				(font

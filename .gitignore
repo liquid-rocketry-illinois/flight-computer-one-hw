@@ -10,3 +10,4 @@ _autosave*
 lib/*.bak
 \#auto_saved_files#
 .DS_Store
+production/

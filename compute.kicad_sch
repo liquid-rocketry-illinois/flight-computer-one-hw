@@ -5776,6 +5776,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK Item" "https://www.digikey.com/en/products/detail/molex/0015910100/614775"
+			(at 30.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "0763c08e-c825-493f-9162-0c9975178c92")
 		)
@@ -6228,6 +6237,15 @@
 		)
 		(property "Description" ""
 			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Part" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/434133025816/9950810?s=N4IgTCBcDaIOwEYAMBaALAZjQjGlgFYAOBANhAF0BfIA"
+			(at 198.12 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,6 +7452,15 @@
 		)
 		(property "Description" ""
 			(at 34.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Part" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/434133025816/9950810?s=N4IgTCBcDaIOwEYAMBaALAZjQjGlgFYAOBANhAF0BfIA"
+			(at 34.29 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2178,6 +2178,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GND_4"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_4_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_4_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LRI_partlib:INA232"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4257,10 +4358,6 @@
 		(at 52.07 59.69)
 		(uuid "81cb1b91-49bd-46c7-b06a-219f4598ddd4")
 	)
-	(no_connect
-		(at 233.68 144.78)
-		(uuid "ccba9935-95ce-4844-9a8e-de90eed58bae")
-	)
 	(wire
 		(pts
 			(xy 212.09 60.96) (xy 255.27 60.96)
@@ -4983,6 +5080,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 146.05) (xy 236.22 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed15c75-66cc-4214-b4a1-0bcdad519778")
+	)
+	(wire
+		(pts
 			(xy 52.07 29.21) (xy 64.77 29.21)
 		)
 		(stroke
@@ -5180,6 +5287,16 @@
 			(type default)
 		)
 		(uuid "b70c3b35-05ca-4f03-a73d-04a2a3cfc967")
+	)
+	(wire
+		(pts
+			(xy 236.22 144.78) (xy 233.68 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e43075-8830-4c2e-8d9c-89757dfa5e4e")
 	)
 	(wire
 		(pts
@@ -7864,6 +7981,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK Part" "https://www.digikey.com/en/products/detail/littelfuse-inc/L4CA0612LR010FNR/18795242"
+			(at 166.37 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "1cdddff0-0f02-4a5f-a9e7-8ce2068d6889")
 		)
@@ -9154,6 +9280,73 @@
 			(project "flight-computer-one"
 				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/420394b1-4c9b-4d8d-83f2-b66955e186e4"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 236.22 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df67d808-6e6d-46fe-b9fc-75c6d0b387a1")
+		(property "Reference" "#PWR041"
+			(at 236.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc5c8709-d849-41c9-8370-74f742399c23")
+		)
+		(instances
+			(project ""
+				(path "/2b49a1e7-3a95-411d-8c49-438ba0d49dde/420394b1-4c9b-4d8d-83f2-b66955e186e4"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)

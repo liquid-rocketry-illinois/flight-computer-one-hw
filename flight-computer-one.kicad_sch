@@ -3125,6 +3125,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK Part" "https://www.digikey.com/en/products/detail/amphenol-anytek/VI0801550000G/2261365"
+			(at 91.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d18df237-6d84-4041-9d99-198d5ebab391")
 		)
@@ -3539,6 +3548,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Part" "https://www.digikey.com/en/products/detail/amphenol-anytek/VI0801550000G/2261365"
 			(at 121.92 149.86 0)
 			(effects
 				(font

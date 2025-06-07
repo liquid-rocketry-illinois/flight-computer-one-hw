@@ -2857,6 +2857,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK Part" "https://www.digikey.com/en/products/detail/mallory-sonalert-products-inc/AST1109MLTRQ/1284367"
+			(at 255.27 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65f78beb-69cc-44bc-8f5b-bef8f12389d3")
 		)
