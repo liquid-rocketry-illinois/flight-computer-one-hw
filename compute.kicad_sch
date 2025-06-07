@@ -3304,7 +3304,7 @@
 	)
 	(text "SERCOM2"
 		(exclude_from_sim no)
-		(at 75.692 83.312 90)
+		(at 71.628 84.328 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3321,6 +3321,16 @@
 			)
 		)
 		(uuid "83d69a07-2561-4737-94cd-f38aab67b3c5")
+	)
+	(text "SERCOM0"
+		(exclude_from_sim no)
+		(at 70.358 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92a0fccb-c21f-450d-ba53-38330fde0011")
 	)
 	(text "SERCOM3"
 		(exclude_from_sim no)
@@ -3467,10 +3477,6 @@
 		(uuid "00f552c5-cf15-440f-9519-acfc2ceeb4af")
 	)
 	(no_connect
-		(at 95.25 78.74)
-		(uuid "02da2494-b468-4952-944c-9ff28e325983")
-	)
-	(no_connect
 		(at 95.25 60.96)
 		(uuid "1c4b2c11-01f3-4033-bcea-05d062469966")
 	)
@@ -3495,8 +3501,8 @@
 		(uuid "3be28bec-e3df-40f2-91fa-b79b9f3434e5")
 	)
 	(no_connect
-		(at 95.25 71.12)
-		(uuid "4beaf1cc-97f7-4843-a244-70840d02c20e")
+		(at 130.81 73.66)
+		(uuid "565653b7-2688-4400-926d-727228815513")
 	)
 	(no_connect
 		(at 130.81 71.12)
@@ -3509,6 +3515,10 @@
 	(no_connect
 		(at 95.25 88.9)
 		(uuid "a4c7a2be-7255-44a9-baec-03287fac9404")
+	)
+	(no_connect
+		(at 130.81 76.2)
+		(uuid "b74671cc-4108-447d-9747-08a28c4f7eed")
 	)
 	(no_connect
 		(at 95.25 86.36)
@@ -3854,6 +3864,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 71.12) (xy 95.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e790d20-4a38-4530-aebb-1a165720c8c6")
+	)
+	(wire
+		(pts
 			(xy 186.69 106.68) (xy 198.12 106.68)
 		)
 		(stroke
@@ -4071,6 +4091,16 @@
 			(type default)
 		)
 		(uuid "6ee436a9-7258-4e76-885e-5f8088722fa7")
+	)
+	(wire
+		(pts
+			(xy 87.63 73.66) (xy 95.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3903a7-33fc-40f8-99d4-bf7f593326e7")
 	)
 	(wire
 		(pts
@@ -4444,16 +4474,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 73.66) (xy 134.62 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf3b2898-057a-44a5-8a9a-aaa0a47e339a")
-	)
-	(wire
-		(pts
 			(xy 22.86 93.98) (xy 25.4 93.98)
 		)
 		(stroke
@@ -4461,16 +4481,6 @@
 			(type default)
 		)
 		(uuid "bf8a04d2-bc32-470c-8b05-09ce1eddff7a")
-	)
-	(wire
-		(pts
-			(xy 130.81 76.2) (xy 134.62 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c01e8380-71d9-4368-91a9-81c4ed61b23c")
 	)
 	(wire
 		(pts
@@ -4491,6 +4501,16 @@
 			(type default)
 		)
 		(uuid "c28a1e96-9820-42bb-805b-08720d732111")
+	)
+	(wire
+		(pts
+			(xy 87.63 78.74) (xy 95.25 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31e7ffd-0c0e-4ad2-bb39-cb56be4b9a27")
 	)
 	(wire
 		(pts
@@ -4621,16 +4641,6 @@
 			(type default)
 		)
 		(uuid "e0dc4323-7890-4a64-8c92-c1773bccfdcb")
-	)
-	(wire
-		(pts
-			(xy 87.63 73.66) (xy 95.25 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4766690-75a5-4b05-9a59-cc7ad251ef82")
 	)
 	(wire
 		(pts
@@ -5081,12 +5091,12 @@
 	)
 	(hierarchical_label "I2C0_SDA"
 		(shape bidirectional)
-		(at 134.62 73.66 0)
+		(at 87.63 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5f205665-3d63-49e6-a6df-69db8ee4c3c0")
 	)
@@ -5178,7 +5188,7 @@
 	)
 	(hierarchical_label "BUZZER_CTL"
 		(shape output)
-		(at 87.63 73.66 180)
+		(at 87.63 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5211,12 +5221,12 @@
 	)
 	(hierarchical_label "I2C0_SCL"
 		(shape output)
-		(at 134.62 76.2 0)
+		(at 87.63 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d052bb79-0319-4db5-8565-7535cacfa37e")
 	)
