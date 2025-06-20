@@ -4400,6 +4400,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 132.08) (xy 163.83 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da9eaa6-4f4f-4551-9ed9-d76227cdec73")
+	)
+	(wire
+		(pts
 			(xy 59.69 60.96) (xy 81.28 60.96)
 		)
 		(stroke
@@ -4467,6 +4477,16 @@
 			(type default)
 		)
 		(uuid "1c3ef500-8ab2-43bc-bf75-21a966d8c0da")
+	)
+	(wire
+		(pts
+			(xy 160.02 144.78) (xy 176.53 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d51d749-289e-4344-8668-f4d315f228e9")
 	)
 	(wire
 		(pts
@@ -4550,13 +4570,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 128.27) (xy 161.29 128.27)
+			(xy 172.72 128.27) (xy 172.72 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ccf1604-b81e-4a84-b2fb-3daa5d8ff734")
+		(uuid "2aca0663-5a98-4bbf-9e33-497064a876df")
 	)
 	(wire
 		(pts
@@ -4597,6 +4617,16 @@
 			(type default)
 		)
 		(uuid "2fa0284a-908f-4a7e-86b9-0d164ee9e0c2")
+	)
+	(wire
+		(pts
+			(xy 161.29 128.27) (xy 160.02 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb0cc50-9471-4a56-9950-eaf5808e227f")
 	)
 	(wire
 		(pts
@@ -4660,16 +4690,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 132.08) (xy 163.83 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "415f623b-7a74-4877-ac65-11945f008241")
-	)
-	(wire
-		(pts
 			(xy 52.07 49.53) (xy 53.34 49.53)
 		)
 		(stroke
@@ -4730,7 +4750,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 124.46) (xy 156.21 128.27)
+			(xy 156.21 124.46) (xy 156.21 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4820,16 +4840,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 134.62) (xy 176.53 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f25a0eb-0602-4eb2-bf0e-59656c5fd563")
-	)
-	(wire
-		(pts
 			(xy 125.73 93.98) (xy 129.54 93.98)
 		)
 		(stroke
@@ -4857,6 +4867,16 @@
 			(type default)
 		)
 		(uuid "667a24b9-4c72-48a5-846d-d1c271c17765")
+	)
+	(wire
+		(pts
+			(xy 172.72 134.62) (xy 176.53 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b7388c-407d-4f12-8997-0dd4b1660928")
 	)
 	(wire
 		(pts
@@ -4890,7 +4910,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 124.46) (xy 176.53 128.27)
+			(xy 176.53 124.46) (xy 176.53 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4927,6 +4947,16 @@
 			(type default)
 		)
 		(uuid "71601a41-08ec-4e4d-9df3-d24002e2d1b0")
+	)
+	(wire
+		(pts
+			(xy 171.45 128.27) (xy 172.72 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7482f664-ebf9-4dd2-ac4c-785f4ff2e9a1")
 	)
 	(wire
 		(pts
@@ -5180,16 +5210,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 128.27) (xy 176.53 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a8fea26-5acd-4599-8aa3-75db31e9d17c")
-	)
-	(wire
-		(pts
 			(xy 53.34 41.91) (xy 52.07 41.91)
 		)
 		(stroke
@@ -5197,6 +5217,16 @@
 			(type default)
 		)
 		(uuid "9b857ffe-8606-466e-964f-ffa61358dbf2")
+	)
+	(wire
+		(pts
+			(xy 168.91 132.08) (xy 176.53 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b871394-82eb-4c98-9472-3caa91b80088")
 	)
 	(wire
 		(pts
@@ -5440,16 +5470,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 144.78) (xy 176.53 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8c13a10-da03-4c65-be41-d3359406bce6")
-	)
-	(wire
-		(pts
 			(xy 55.88 147.32) (xy 55.88 157.48)
 		)
 		(stroke
@@ -5497,6 +5517,16 @@
 			(type default)
 		)
 		(uuid "dce802cf-e314-4c59-ba71-daccdbc2ce5d")
+	)
+	(wire
+		(pts
+			(xy 160.02 128.27) (xy 160.02 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ae1bd4-7753-4e60-a124-6a03be709939")
 	)
 	(wire
 		(pts
@@ -5577,16 +5607,6 @@
 			(type default)
 		)
 		(uuid "ef9fab59-37c5-4e85-9b19-5a9215cef90f")
-	)
-	(wire
-		(pts
-			(xy 168.91 132.08) (xy 168.91 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efe3e9d3-a316-4f5c-a995-458fbabb0a69")
 	)
 	(wire
 		(pts
@@ -7954,7 +7974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSKW0612"
+		(property "Footprint" "LRI_Partlib:L4CA0612L0M50FNR"
 			(at 166.37 126.492 90)
 			(effects
 				(font
